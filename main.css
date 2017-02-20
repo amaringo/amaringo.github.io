@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  color: white;
+  background: black url(img/background.jpg) no-repeat;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.about-me {
+  margin-bottom: 100px;
+  padding: 0 25px;
+}
+.about-me__heading {
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+}
+.about-me__info {
+  font-size: 18px;
+
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.gallery__item {
+  width: 350px;
+  height: 350px;
+  border: 2px solid coral;
+  border-radius: 2px;
+  position: relative;
+  margin-bottom: 45px;
+  transition: 0.3s;
+}
+.gallery__item:hover{
+  box-shadow: 0 0 2px 2px coral;
+}
+.gallery__item img {
+  max-width: 100%;
+}
+
+.gallery__item-specs {
+  display: block;
+  opacity: 0;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 25px;
+  left:25px;
+  color: white;
+  background-color: rgba(70,70,70,0.9);
+  border-radius: 25px;
+  margin: 0;
+  font-size: 20px;
+  padding: 30px;
+  transition: 0.5s;
+}
+.gallery__item:hover .gallery__item-specs{
+  opacity: 1;
+}
+.contacts {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.contacts p {
+  margin: 0;
+}
+.contacts__link {
+  width: 68px;
+  height: 48px;
+  display: inline-block;
+  font-size: 0;
+  margin-right: 0px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.contacts__link:hover{
+  opacity:1;
+}
+.contacts__link--vk {
+  background-image: url(img/vk.png);
+}
+.contacts__link--skype {
+  background-image: url(img/skype.png);
+}
+.contacts__link--mail {
+  background-image: url(img/email.png);
+}

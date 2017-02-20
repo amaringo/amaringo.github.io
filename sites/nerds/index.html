@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <a class="header-logo" href="index.html"><img src="img/logo.png" width="139" height="56" alt="Нёрдс"></a>
+          <ul class="main-menu">
+            <li><a href="studio.html">Студия</a></li>
+            <li><a href="clients.html">Клиенты</a></li>
+            <li><a href="store.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="basket" href="basket.html"><span class="icon-basket">&nbsp;&nbsp;</span>Корзина</a>
+        </div>
+        <div class="slider">
+          <input type="radio" id="first" name="toggle" checked>
+          <input type="radio" id="second" name="toggle">
+          <input type="radio" id="third" name="toggle">
+          <div class="slider-controls">
+            <label for="first"></label>
+            <label for="second"></label>
+            <label for="third"></label>
+          </div>
+          <div class="slides">
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Долго, дорого,<br>скрупулезно</div>
+                <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+                <a class="btn" href="learn-more.html">Узнать больше</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Любите ли вы математику,<br> как любим ее мы?</div>
+                <p>Нашим дизайнерам мы удаляем нейроны, ответственные<br>за креатив, чтобы дать им возможность все просчитать.</p>
+                <a class="btn" href="learn-more.html">Узнать больше</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-text">
+                <div class="slide-title">Только наркотики,<br> только хардкор!</div>
+                <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+                <a class="btn" href="learn-more.html">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container clearfix">
+      <section class="options">
+        <div class="option">
+          <img src="img/websites.png" width="240" height="124" alt="websites">
+          <h2>Веб-сайты</h2>
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a class="btn" href="order.html">Заказать</a>
+        </div>
+        <div class="option">
+          <img src="img/apps.png" width="240" height="124" alt="websites">
+          <h2>Приложения</h2>
+          <p>Покорите топ-10 приложений в&nbsp;AppStore и Google Play</p>
+          <a class="btn" href="order.html">Заказать</a>
+        </div>
+        <div class="option">
+          <img src="img/presentations.png" width="240" height="124" alt="websites">
+          <h2>Презентации</h2>
+          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a class="btn" href="order.html">Заказать</a>
+        </div>
+      </section>
+      <section class="features">
+        <div class="about">
+          <div class="about-title">Мы — маленькая, но гордая дизайн-студия&nbsp;из Краснодара.</div>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+          <div class="orders">
+            <div class="orders-title">Выполняем заказы на разработку:</div>
+            <ul class="orders-list">
+              <li>Веб-сайтов любой сложности</li>
+              <li>Мобильных приложений для iOS и Android</li>
+              <li>Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mode">
+          <div class="mode-logo">
+            <img src="img/logo.png" width="187" height="75" alt="Нёрдс">
+          </div>
+          <p>Since 2004</p>
+          <div class="work">
+            <div class="work-title">Как мы работаем:</div>
+            <ul class="work-list">
+              <li>С самоотдачей 146%</li>
+              <li>Соблюдая сроки на 100%</li>
+              <li>По предоплате 50%</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="portfolio">
+        <a href="#"><img src="img/glukhanko.png" width="198" height="37" alt="glukhanko"></a>
+        <a href="#"><img src="img/htmlAcademy.png" width="199" height="68" alt="htmlAcademy"></a>
+        <a href="#"><img src="img/borodinski.png" width="209" height="90" alt="barbershop"></a>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <section class="map-and-contacts">
+        <div class="map" id="map"></div>
+        <div class="contacts">
+          <p class="contacts-title">NЁRDS DESIGN STUDIO</p>
+          <p>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8 </p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <a class="btn feedback-btn" href="write-to-us.html">Напишите нам</a>
+        </div>
+      </section>
+      <div class="container clearfix">
+        <div class="social">
+          <a class="social-btn icon-vk" href="https://vk.com/"></a>
+          <a class="social-btn icon-facebook" href="https://ru-ru.facebook.com/"></a>
+          <a class="social-btn icon-instagramm" href="https://www.instagram.com/"></a>
+        </div>
+        <div class="friendship">
+          <div class="friendship-title">Давайте дружить, это выгодно!</div>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+    <div class="feedback">
+      <button class="feedback-close" type="button" title="Закрыть">Закрыть</button>
+      <form action="https://echo.htmlacademy.ru" class="feedback-form" method="post">
+        <label for="fullname">Ваше имя:</label>
+        <label for="email">Ваш e-mail:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста" required>
+        <input type="email" name="email" id="email" placeholder="Для отправки ответа" required>
+        <label for="message">Текст письма:</label>
+        <textarea name="message" id="message" placeholder="В свободной форме" required></textarea>
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
+    <div class="overlay"></div>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/feedback.js"></script>
+  </body>
+</html>
